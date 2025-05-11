@@ -4,6 +4,7 @@ require_once 'core/db.php';
 require_once 'helpers/session.php';
 require_once 'helpers/csrf.php';
 
+//Session check
 if (isset($_SESSION["user_id"])) {
     header("Location: home");
 }
