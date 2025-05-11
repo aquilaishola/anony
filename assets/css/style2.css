@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #7F00FF, #FF768F, #3D38D7);
+    font-family: 'Nunito Sans', sans-serif;
+    color: #333;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.container label {
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.link-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.link-container input {
+    flex: 1;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.link-container button {
+    padding: 10px 20px;
+    background: #7F00FF;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.link-container button:hover {
+    background: #5a00b0;
+}
+
+.container button {
+    background: #FF768F;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.container button:hover {
+    background: #cc5f78;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.social-buttons a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px;
+    border-radius: 50%;
+    color: #fff;
+    transition: background 0.3s ease;
+}
+
+.social-buttons .facebook {
+    background: #4267B2;
+}
+
+.social-buttons .facebook:hover {
+    background: #365899;
+}
+
+.social-buttons .whatsapp {
+    background: #25D366;
+}
+
+.social-buttons .whatsapp:hover {
+    background: #1DA851;
+}
+
+.social-buttons .instagram {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
+.social-buttons .instagram:hover {
+    background: linear-gradient(45deg, #bc1888, #cc2366, #dc2743, #e6683c, #f09433);
+}

@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #7F00FF, #FF768F, #3D38D7);
+    font-family: 'Nunito Sans', sans-serif;
+    color: #333;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 50px;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.container input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.7);
+    box-sizing: border-box;
+}
+
+.container button {
+    background: #FF768F;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.container button:hover {
+    background: #cc5f78;
+}
+
+.container p {
+    margin: 15px 0 0;
+    font-size: 14px;
+}
+
+.container p a {
+    text-decoration: none;
+    color: #7F00FF;
+    font-weight: bold;
+}
+
+.container p a:hover {
+    text-decoration: underline;
+}
