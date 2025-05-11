@@ -4,6 +4,27 @@
 
 <p id="description">ANONY is a lightweight web application that allows users to send anonymous messages securely and effortlessly. Built with core PHP and MySQL it provides a simple interface for users to communicate without revealing their identities.</p>
 
+## ✨ Features
+
+- **Anonymous Messaging**: Send messages without revealing your identity.
+- **User Authentication**: Secure login and registration system.
+- **Responsive Design**: Accessible on both desktop and mobile devices.
+
+## 🛠️ Technologies Used
+
+- PHP (Core)
+- MySQL
+- HTML5 & CSS3
+- JavaScript
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- PHP 7.x or higher
+- MySQL 5.x or higher
+- Web server (e.g., Apache, Nginx)
+
 <h2>🚀 Demo</h2>
 
 [https://anony.devaquila.xyz/](https://anony.devaquila.xyz/)
